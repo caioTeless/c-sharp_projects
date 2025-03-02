@@ -1,0 +1,38 @@
+Por muitos anos foi dificil criar sistemas orientados a objetos por ser dificil se comunicar com banco de dados relacional.
+
+
+ORM -> Mapeamento de objeto relacional.
+
+Object relational Mapping> Permite programar em nível de objetos e comunicar de forma transparente com um banco de dados relacional.
+
+Entity framework serve justamente para fazer esse comunicação...
+
+
+Mysql -> É um tipo de provider
+===========================================================================================
+
+PRINCIPAIS CLASSES
+
+Basicamente o entity framework vai trabalhar com duas calsses principais
+
+
+DbContext -> Um ojbeto DbContext encapsula uma sessão com o banco de dados para um determinado modelo de dados (representado por DbSet)
+
+	É usado para consultar e salvar entidades no banco de dados
+	Define quais entidades farão parte do modelo de dados do sistemas
+	Pode definir várias configurações
+	É uma combinação dospadrões Unity of Work e Repository
+
+		Unity of work -> Mantem uma lista de objetos afetados por uma transação e coordena escrita de mudanças e 		tratas possiveis problemas de concorrências
+		
+		Repository -> Define um objeto capaz de realizar operações de acesso de dados para uma entidade.
+
+DbSet<TEntity> -> Representa a coleção de entidades de um dado tipo em um contexto. Tipicamente corresponde a uma tabela do banco de dados.
+
+
+Processo geral para se executar operações
+
+LINQ -> DbSet -> SQL -> Banco de dados
+
+
+
