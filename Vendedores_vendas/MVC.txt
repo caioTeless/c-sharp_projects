@@ -1,0 +1,41 @@
+Web Service é uma solução utilizada na integração de sistemas e na comunicação entre aplicações diferentes. Com esta tecnologia é possível que novas aplicações possam interagir com aquelas que já existem e que sistemas desenvolvidos em plataformas diferentes sejam compatíveis.
+
+Um processador de modelo é um pedaço de software ou um componente de software que é designado a combinar um ou mais modelos com um modelo de dados para produzir um ou mais documentos como resultado. 
+
+
+WEB SERVICE
+
+Quem faz a montagem da tela do site é o javascript por exemplo
+
+
+TEMPLEATE ENGINE
+
+HTML quem faz a montagem
+-------------------------------------------------------------------------
+
+MVC - Padrão de desenvolvimento de aplicações
+
+M - Model Estrutua dos dados e suas transofmrações(domain model)
+ Tmabém chamado de "O sistema"
+ Composto de entities e services (relacionados as entities)
+ Repositories - Acessam banco de dados por exemplo
+
+C -> Controller -> receber e tratar as interações do usuário com o sistema
+
+V -> Views -> Definir a estrutura e comportamento das telas.
+
+
+
+VIEW
+  ^
+  |
+  V
+Controller
+  ^
+  |
+  V
+Model
+
+Service layer              Entities
+Data Acess Layer      
+ 
